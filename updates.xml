@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints,UselessLeaf" >
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow"
+        android:text="@string/future_advantages_on_our_site"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints"/>
+    </RelativeLayout>
+
+    <CheckBox
+        android:layout_width="226dp"
+        android:layout_height="142dp"
+        android:background="@color/yellow"
+        android:text="@string/buy_goods_with_lowered_prices"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="116dp">
+
+    </CheckBox>
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="270dp"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

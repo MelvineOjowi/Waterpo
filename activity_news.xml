@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="134dp"
+        android:layout_height="540dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:contentDescription="@string/order"
+            android:src="@drawable/order" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="202dp"
+            android:layout_marginTop="90sp"
+            android:columnCount="1"
+            android:rowCount="9"
+            android:text="@string/_150"
+            android:textSize="33sp"
+            tools:ignore="MissingConstraints" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="600dp"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:layout_width="630dp"
+            android:layout_height="150dp"
+            android:contentDescription="@string/sa_le"
+            android:src="@drawable/sale"
+            tools:ignore="MissingConstraints"
+            android:rowCount="1"
+            android:columnCount="7"
+            android:layout_marginStart="120dp"/>
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:columnCount="5"
+            android:rowCount="4"
+            android:text="@string/_450"
+            android:textSize="35sp"
+            android:layout_marginTop="120dp"
+            android:layout_marginStart="170dp"/>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/email_input"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="150dp"
+        android:hint="@string/enter_your_email"
+        android:inputType="textEmailAddress"
+        android:autofillHints="textEmailAddress"/>
+
+    <VideoView
+        android:layout_width="300dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="400dp">
+    </VideoView>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="650dp"
+        android:onClick="submit"
+        android:text="@string/_submit"
+        android:textColor="#C5E1A5"
+        android:textSize="15sp"
+        tools:ignore="TextSizeCheck"/>
+</RelativeLayout>
+
+
